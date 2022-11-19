@@ -1,0 +1,44 @@
+.about-info{
+    display: block;
+    color: #e8604c;
+    font-size: 20px;
+    align-items: center;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Kolker Brush', cursive;
+  
+}
+.about-title{
+    margin: 0;
+    font-weight: 700;
+    color: #313041;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    font-family: 'DM Sans', sans-serif;
+}
+.about-details{
+    margin: 35px 0px;
+    font-family: 'DM Sans', sans-serif;
+color: #787780;
+font-size: 18px;
+line-height: 34px;
+font-weight: 400;
+}
+.check-icon{
+    padding: 5px;
+    background-color: #e8604c;
+    font-size: 9px;
+    color:#ffffff;
+    border-radius: 50%;
+}
+
+.book-now-btn{
+    padding: 10px 20px;
+    background-color: #e8604c;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}

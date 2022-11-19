@@ -1,0 +1,14 @@
+.nav-bg{
+    background-image: linear-gradient(to right,#226DA3 60%, #AAAAAF);
+    margin-bottom: 100px;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    
+}
+.nav-link a:hover{
+    color: tomato;
+}

@@ -1,0 +1,17 @@
+.travel-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../../assets/images/about/travel-bg.jpg'), linear-gradient(rgb(53, 50, 50), black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.video-one_tagline {
+    font-size: 30px;
+    color: #e8604c;
+    font-family: 'Kolker Brush', cursive;
+    margin: 0;
+    padding-top: 67px;
+    padding-bottom: 33px;
+}

@@ -15,7 +15,7 @@ const AddReview = () => {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch(`https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/reviews`)
+    fetch(`https://rr-travels-server-rakib4485.vercel.app/reviews`)
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
@@ -32,7 +32,7 @@ const AddReview = () => {
 
     console.log(displayName, photoURL, details, rating);
 
-    fetch(`https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/reviews`, {
+    fetch(`https://rr-travels-server-rakib4485.vercel.app/reviews`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

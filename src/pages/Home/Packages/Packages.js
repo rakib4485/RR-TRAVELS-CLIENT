@@ -8,7 +8,7 @@ const Packages = () => {
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
-    fetch("https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/packages")
+    fetch("https://rr-travels-server-rakib4485.vercel.app/packages")
       .then((res) => res.json())
       .then((data) => setPlaces(data));
   }, []);
@@ -29,7 +29,7 @@ const Packages = () => {
 
       <p className="text-center">
       <Link to='/packages'>
-        <button className="my-3 text-cemter" style={{padding: "10px 20px", borderRadius: "20px", backgroundColor: "#e8604c", color: "white"}}>See More</button>
+        <button className="my-3 text-center" style={{padding: "10px 20px", borderRadius: "20px", backgroundColor: "#e8604c", color: "white"}}>See More</button>
       </Link>
       </p>
       </Container>

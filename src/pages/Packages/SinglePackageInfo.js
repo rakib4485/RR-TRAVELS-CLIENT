@@ -7,12 +7,12 @@ import { Button, Row } from "react-bootstrap";
 
 const   SinglePackageInfo = () => {
   const packages = useLoaderData();
-  const {_id, package_id, title, img, price, description, details, } = packages;
+  const { title, img, price, description, details, } = packages;
 
   const [reviews, setReviews] = useState([]);
 
   useEffect( ()=>{
-    fetch('https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/reviews')
+    fetch('https://rr-travels-server-rakib4485.vercel.app/reviews')
     .then(res => res.json())
     .then(data => setReviews(data))
   }, [])

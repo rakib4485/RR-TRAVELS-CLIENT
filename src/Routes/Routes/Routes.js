@@ -21,27 +21,27 @@ export const routes = createBrowserRouter([
             {
                 path: '/packages',
                 element: <Packages></Packages>,
-                loader: ()=> fetch('https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/packages')
+                loader: ()=> fetch('https://rr-travels-server-rakib4485.vercel.app/packages')
             },
             {
                 path: '/packages/:id',
                 element: <SinglePackageInfo></SinglePackageInfo>,
                 loader: ({params}) =>{
-                    return fetch(`https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/packages/${params.id}`)
+                    return fetch(`https://rr-travels-server-rakib4485.vercel.app/packages/${params.id}`)
                 }
             },
             {
                 path: 'reviews',
                 element: <AllReviews></AllReviews>,
                 loader: () => {
-                    return fetch(`https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/reviews`)
+                    return fetch(`https://rr-travels-server-rakib4485.vercel.app/reviews`)
                 }
             },
             {
                 path: '/addReview',
                 element: <PrivetRoutes><AddReview></AddReview></PrivetRoutes>,
                 loader: ({params}) => {
-                    return fetch(`https://rr-travels-server-9rqj7v1jo-rakib4485.vercel.app/reviews`)
+                    return fetch(`https://rr-travels-server-rakib4485.vercel.app/reviews`)
                 }
             },
             {
